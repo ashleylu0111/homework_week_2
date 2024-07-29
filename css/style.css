@@ -22,6 +22,11 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -46,48 +51,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-.bruno-ace-sc-regular {
-    font-family: "Bruno Ace SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
 .container{
     width: 1296px;
     margin: 0 auto;
 }
+.black{
+    background: #000;
+}
 .h1{
     font-size: 128px;
-    font-family: "Bruno Ace SC", sans-serif;
 }
 .h2{
     font-size: 64px;
-    font-family: "Bruno Ace SC", sans-serif;
 }
 .fs-1{
-    font-size: 32px;
-    font-family: "Bruno Ace SC", sans-serif;
+    font-size: 32px;;
 }
 .fs-2{
     font-size: 24px;
-    font-family: "Bruno Ace SC", sans-serif;
 }
 .fs-3{
     font-size: 16px;
-    font-family: "Bruno Ace SC", sans-serif;
 }
 .intro{
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 160px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 .intro-desc{
     width: 526px;
 }
 .about{
-    padding: 160px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 .btn{
     padding: 12px 24px;
@@ -111,7 +110,9 @@ table {
 }
 .d-flex{
     display: flex;
-    align-items: flex-start;
+}
+.align-item-center{
+    align-items: center;
 }
 .flex-column{
     flex-direction: column;
@@ -150,17 +151,18 @@ table {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.about-dsc{
+.about-desc{
     width: 526px;
 }
 .about-list li{
     width: 48%;
     border: rgba(227, 227, 227, 1) solid 1px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 16px;
 }
 .contactme{
     margin-right: 50px;
-    padding: 96px;
+    color: #fff;
 }
 .contactmebg{
     background-color: #050014;
@@ -177,11 +179,35 @@ table {
     width: 746px;
 }
 .Project{
-    padding: 160px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 .footer{
     background-color: #000;
     color: #fff;
     padding: 40px;
     text-align: center;
+}
+.m20{
+    margin-right: 20px;
+}
+.p96{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.projecttitle{
+    width: 746px;
+    margin-left: auto;
+}
+.projectimg1{
+    margin-right: 24px;
+}
+.projectimg2{
+    margin-bottom: 28px;
+}
+.projectimg3{
+    margin-right: 24px;
+}
+.mt160{
+    margin-top: 160px;
 }
